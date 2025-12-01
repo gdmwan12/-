@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柚茶小圆 - 仪陇柚子茶</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">柚茶小圆</div>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">品牌故事</a></li>
+                <li><a href="#mascot">IP形象·柚多多</a></li>
+                <li><a href="#products">产品展示</a></li>
+                <li><a href="#features">特色工艺</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="slideshow">
+            <div class="slide fade">
+                <img src="images/slide1.jpg" alt="柚子园">
+            </div>
+            <div class="slide fade">
+                <img src="images/slide2.jpg" alt="柚子茶">
+            </div>
+            <div class="slide fade">
+                <img src="images/slide3.jpg" alt="工艺展示">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>柚茶小圆</h1>
+            <p>传承百年工艺 · 融合现代创新</p>
+            <a href="#products" class="cta-button">了解更多</a>
+        </div>
+        <div class="slide-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-title">
+            <span class="line"></span>
+            <h2>品牌故事</h2>
+            <span class="line"></span>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/paper-texture.jpg" alt="品牌故事背景">
+                <div class="about-text-overlay">
+                    <p>柚茶小圆源于四川仪陇，这片孕育着百年柚子种植历史的沃土。
+                        柚茶小圆——扎根仪陇的"柚"惑新势力！
+                        精选北纬31°黄金种植带生长的仪陇红心柚，果肉红润、酸甜爆汁，
+                        每一颗都是仪陇山水滋养的"自然实验室"。品牌携手当地合作社，
+                        将鲜果、辅料变为冻干茶饮，撬动深加工产业链。
+                        创新性打造个性化体验，致力于让每个人都拥有独属自己口味的蜂蜜柚子茶。
+                        产品以"柚乡基因"为魂，结合仪陇特色文化，定制周边，打造"柚乡"。用一杯茶连接一座乡村，用一个IP激活一片产地！</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="mascot" class="mascot">
+        <div class="section-title">
+            <span class="line"></span>
+            <h2>IP形象·柚多多</h2>
+            <span class="line"></span>
+        </div>
+        <div class="mascot-content">
+            <div class="mascot-image">
+                <img src="images\about.svg.png" alt="柚多多形象">
+            </div>
+            <div class="mascot-info">
+                <div class="info-card">
+                    <h3>【角色设定】</h3>
+                    <p>柚多多是一颗圆润可爱的柚子拟人形象，拥有柚子金黄果皮色、浅粉腮红与治愈微笑，头顶绿叶，手抱柚子。亲切、甜美、温柔，是“自然生活美学”的形象代言人。</p>
+                </div>
+                <div class="info-card">
+                    <h3>【性格特征】</h3>
+                    <p>天然治愈系，充满好奇与探索精神，热衷发现柚子与茶饮的奇妙组合，像朋友一样陪伴你每一天，传递温暖与安心。</p>
+                </div>
+                <div class="info-card">
+                    <h3>【名字含义】</h3>
+                    <p>“柚”：强调柚子为核心原料，象征“佑护”与“团圆”，承载新中式养生文化。</p>
+                    <p>"多多"：寓意丰富搭配与多元功能，如“多多益善”，传递健康、美味、快乐多多的品牌愿景。</p>
+                </div>
+                <div class="info-card">
+                    <h3>【IP核心价值】</h3>
+                    <p>融合自然健康与情感陪伴，传递“无添加、绿色生活”的理念，柚多多不仅是饮品IP，更是现代生活中缓解压力、带来喜悦的小伙伴。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="section-title">
+            <span class="line"></span>
+            <h2>产品展示</h2>
+            <span class="line"></span>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/classic.jpg" alt="经典系列">
+                </div>
+                <h3>经典必备系列</h3>
+                <p>黄金搭配，必藏之味</p>
+                <div class="hover-overlay">
+                    <div class="hover-content">
+                        <h4>四大基础系列</h4>
+                        <ul>
+                            <li><span class="keyy">原味蜂蜜柚子茶系列</span></li>
+                            <li><span class="wi">规格：</span>内含28颗柚子酱、28颗蜂蜜酱、８颗冰糖糖浆</li>
+                            <li><span class="keyy">果茶系列</span></li>
+                            <li><span class="wi">规格：</span>内含16颗柚子酱、16颗蜂蜜jar、４颗冰糖糖浆、４颗苹果冻干、４颗香橙冻干......
+                            </li>
+                            <li><span class="keyy">花茶系列</span></li>
+                            <li><span class="wi">规格：</span>16颗柚子jar、16颗蜂蜜jar、４颗冰糖糖浆、４颗百合冻干、４颗菊花冻干......
+                            </li>
+                            <li><span class="keyy">中药茶系列</span></li>
+                            <li><span class="wi">规格：</span>16颗块柚子jar、16颗蜂蜜jar、４颗冰糖糖浆、４颗枸杞冻干、４颗红枣冻干......
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/custom.jpg" alt="蜂蜜系列">
+                </div>
+                <h3>随心定制系列</h3>
+                <p>自由配搭，味由你定</p>
+                <div class="hover-overlay">
+                    <div class="hover-content">
+                        <h4>个性化定制</h4>
+                        <p>推荐搭配</p>
+                        <ul>
+                            <li>
+                                <span class="keyy">A.均衡经典味：</span>1颗柚子酱+1颗蜂蜜jar
+                            </li>
+                            <li><span class="keyy">B.蜜多多：</span>2颗柚子jar+3颗蜂蜜jar</li>
+                            <li><span class="keyy">C.活力维C炸弹：</span>3颗柚子jar+1颗蜂蜜</li>
+                            <li><span class="keyy">D.岱赭半见热橙茶：</span>1颗柚子jar+1颗蜂蜜jar＋1颗苹果冻干＋1颗香橙冻干＋1颗红茶茶底</li>
+                            <li><span class="keyy">E.柚子桑葚紫藤茶：</span>１颗柚子jar＋１颗蜂蜜jar＋１颗桑葚冻干＋１颗柠檬冻干＋１颗冰糖糖浆</li>
+                            <li><span class="keyy">F.柚子桃夭玫瑰茶：</span>1颗柚子jar+1颗蜂蜜＋２颗玫瑰冻干＋1颗山楂冻干＋1颗冰糖糖浆</li>
+                            <li><span class="ll">还有更多组合，等你来解锁......</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/holiday.jpg" alt="礼盒系列">
+                </div>
+                <h3>节假日限定系列</h3>
+                <p>节令限定，臻选风味</p>
+                <div class="hover-overlay">
+                    <div class="hover-content">
+                        <h4>节日限定</h4>
+                        <p>应季臻选，打造仪式感与惊喜感</p>
+                        <ul>
+                            <li><span class="keyy">鬼鬼柚茶集（万圣节限定）：</span>
+                            </li>
+                            <li>A.威灵迷雾（威士忌）：2颗柚子jar+1颗蜂蜜jar＋1颗威士忌＋1颗柠檬冻干</li>
+                            <li>B.南瓜怪咖（伏特加）：1颗柚子jar+1颗蜂蜜jar+1颗冰糖糖浆＋颗块伏特加＋1颗柠檬冻干</li>
+                            <li><span class="keyy">月月柚茶集（中秋节限定）：</span></li>
+                            <li>A.明月映柚香：1颗柚子jar+1颗蜂蜜jar＋2颗桂花＋1颗红枣</li>
+                            <li>B.团圆莲子情：1颗柚子jar+1颗蜂蜜jar+2颗冰糖糖浆＋1颗莲子＋1颗柠檬冻干</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="section-title">
+            <span class="line"></span>
+            <h2>特色工艺</h2>
+            <span class="line"></span>
+        </div>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/icon-fruit.jpg" alt="原料">
+                </div>
+                <h3>优质原料</h3>
+                <p><span class="keyword">晚熟红心柚</span>：晚熟的特性让红心柚在树上生长周期更长，果肉越发饱满多汁，色泽鲜艳红润。其总糖27%，总酸<0.8%， 维生素C226mg
+                        /100g可食率53.3%，具有极好的内在品质。</p>
+                        <p><span class="keyword">元帅柚</span>：元帅柚果实硕大，果皮薄而光滑。
+                            1909年朱老总曾派人送回一批柚树苗，叮嘱家人栽于马鞍老家，几年后柚树开花结果，果实香甜可口，故后取名“元帅柚”。</p>
+            </div>
+            <!-- 在冻干加工工艺部分修改文字 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/icon-craft.png" alt="工艺">
+                </div>
+                <h3>冻干加工工艺</h3>
+                <p>对所有辅料采用先进的冻干碎技术处理，将其转化为精细的冻干碎形态。
+                    从苹果、香橙、柠檬等水果，到百合、菊花、玫瑰等花草，再到枸杞、红枣、茯苓等滋补食材，无一例外。</p>
+                <p><span class="keyword">锁鲜科技</span>：最大化保留营养，守护天然精华
+                    与高温干燥等方式相比，冻干技术在低温下使水分升华，能最大程度保留辅料的营养成分</p>
+                <p><span class="keyword">纯净之选</span>：零添加配方，回归自然本味
+                    冻干碎生产过程简单，无需添加过多增稠剂、防腐剂、色素等，保持天然纯净</p>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/icon-natural.png" alt="品质">
+                </div>
+                <h3>创新包装设计</h3>
+                <p>“爆爆珠”式小圆球采用聚丙烯材质的彩色磨砂半透明外壳。
+                    彩色设计使不同辅料的小圆球易于区分，如黄色对应柠檬冻干碎，粉色代表玫瑰冻干碎等。</p>
+                <p>半透明的磨砂质，既保护内部冻干碎不受光照影响，延长保质期。每个小圆球的容量，约可容纳2-3克的冻干碎辅料。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <span class="line"></span>
+            <h2>联系我们</h2>
+            <span class="line"></span>
+        </div>
+        <div class="contact-content">
+            <div class="contact-left">
+                <div class="franchise-item">
+                    <img src="images/24h.png" alt="24小时服务" class="contact-icon1">
+                    <div class="contact-text">
+                        <h3>加盟中心</h3>
+                        <p>客服支持</p>
+                        <p class="time">HOURS:00:00AM-22:00PM</p>
+                    </div>
+                </div>
+                <div class="franchise-item">
+                    <img src="images/email.png" alt="在线资讯" class="contact-icon2">
+                    <div class="contact-text">
+                        <h3>在线资讯</h3>
+                        <p>快速了解</p>
+                        <p class="email">邮箱：详细咨询预约</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <h3>联系方式</h3>
+                <p>0817-XXXXXXXX</p>
+                <p>四川省南充市仪陇县</p>
+                <p>contact@youzha.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">柚茶小圆</div>
+            <div class="footer-links">
+                <a href="#about">关于我们</a>
+                <a href="#products">产品展示</a>
+                <a href="#contact">联系方式</a>
+            </div>
+            <p class="copyright">&copy; 2024 柚茶小圆 版权所有</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+        resetTimer(); // 重置定时器
+    }
+
+    function showSlides(n) {
+        const slides = document.getElementsByClassName("slide");
+        const dots = document.getElementsByClassName("dot");
+
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].classList.remove("active");
+            dots[i].classList.remove("active");
+        }
+
+        slides[slideIndex - 1].classList.add("active");
+        dots[slideIndex - 1].classList.add("active");
+    }
+
+    // 自动轮播
+    let timer = null;
+
+    function autoPlay() {
+        slideIndex++;
+        showSlides(slideIndex);
+    }
+
+    function resetTimer() {
+        clearInterval(timer);
+        timer = setInterval(autoPlay, 2000); // 设置为2秒
+    }
+
+    // 初始化定时器
+    resetTimer();
+</script>
