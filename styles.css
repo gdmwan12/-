@@ -20,6 +20,12 @@ body {
     font-family: 'Microsoft YaHei', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 nav {
@@ -187,14 +193,15 @@ product-card .hero-content h1 {
 /* Other Sections */
 section {
     padding: 5rem 10%;
-    background: white;
+    background: transparent;
 }
 
 #about,
 #products,
 #features,
 #mascot,
-#contact {
+#contact,
+#store {
     background-image: url('../images/柚子.jpg');
     background-size: cover;
     background-position: center;
@@ -206,7 +213,8 @@ section {
 #products::before,
 #features::before,
 #mascot::before,
-#contact::before {
+#contact::before,
+#store::before {
     content: '';
     position: absolute;
     top: 0;
@@ -229,7 +237,9 @@ section {
 #products .section-title,
 #products .product-grid,
 #features .section-title,
-#features .product-grid {
+#features .product-grid,
+#store .section-title,
+#store .product-grid {
     position: relative;
     z-index: 1;
     /* 确保内容在遮罩层上方 */
@@ -460,7 +470,7 @@ section h2 {
 }
 
 .product-grid .product-card:nth-child(2) .product-image img {
-    height: 280px;
+    height: 320px;
 }
 
 .product-grid .product-card:nth-child(2):hover {
@@ -881,7 +891,6 @@ footer {
 /* IP形象模块样式 */
 .mascot {
     padding: 80px 0;
-    background-color: #fff8f3;
 }
 
 .mascot-content {
@@ -951,4 +960,22 @@ footer {
 #mascot .mascot-content {
     position: relative;
     z-index: 1;
+}
+
+/* 门店展示模块使用与特色工艺相同的样式 */
+#store .product-card p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+#store .product-card p+p {
+    margin-top: -10px;
+}
+
+#store .product-card p:last-child {
+    margin-bottom: 15px;
 }
